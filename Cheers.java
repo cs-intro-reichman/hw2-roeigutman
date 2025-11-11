@@ -6,7 +6,7 @@ public class Cheers {
         
         int N = Integer.parseInt(args[1]);
         
-        String a = "AEFHILMNORSX";
+        String a = "AEFHILMNORSXaefhilmnorsx";
         
         for( int k = 0; k < s.length(); k++) {
            
