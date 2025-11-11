@@ -2,11 +2,11 @@
 public class Cheers {
         public static void main(String[] args) {
 	    
-        String s = args[0];
+        String s = args[0].toUpperCase();
         
         int N = Integer.parseInt(args[1]);
         
-        String a = "AEFHILMNORSXaefhilmnorsx";
+        String a = "AEFHILMNORSX";
         
         for( int k = 0; k < s.length(); k++) {
            
@@ -22,7 +22,7 @@ public class Cheers {
              System.out.println("What does that spell?");
         
              for( int i = 0; i < N; i++) {
-             System.out.println(args[0] + "!!!");
+             System.out.println(args[0].toUpperCase() + "!!!");
 
               }
 
