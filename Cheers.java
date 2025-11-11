@@ -4,7 +4,7 @@ public class Cheers {
 	    
         String s = args[0].toUpperCase();
         
-        int N = Integer.parseInt(args[1]);
+        int n = Integer.parseInt(args[1]);
         
         String a = "AEFHILMNORSXaefhilmnorsx";
         
@@ -21,7 +21,7 @@ public class Cheers {
           }  
              System.out.println("What does that spell?");
         
-             for( int i = 0; i < N; i++) {
+             for( int i = 0; i < n; i++) {
              System.out.println(args[0].toUpperCase() + "!!!");
 
               }
