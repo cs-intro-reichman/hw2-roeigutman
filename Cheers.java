@@ -12,7 +12,7 @@ public class Cheers {
            
           if ((a.indexOf(s.charAt(k))) == -1) {
             
-           System.out.println( "Give me a " + s.charAt(k) + ": " + s.charAt(k) + "!");
+           System.out.println( "Give me a  " + s.charAt(k) + ": " + s.charAt(k) + "!");
        
       } else {   System.out.println( "Give me an " + s.charAt(k) + ": " + s.charAt(k) + "!");
             
